@@ -1,0 +1,17 @@
+#board {
+	max-width: 650px;
+	margin-left: 25%;
+	margin-top: 40px;
+}
+
+#title {
+	text-align: center;
+	font-size: 3rem;
+}
+
+.tbox{
+	border: 3px solid black;
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+}
