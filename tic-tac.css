@@ -1,17 +1,83 @@
+body {
+background-image:url('http://wwatsonjr.com/wp/wp-content/uploads/2012/08/gradient_gray.jpg');
+}
 #board {
-	max-width: 650px;
-	margin-left: 25%;
-	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 416px;
+	margin-top: 26.297px;
+	margin-bottom: 26.297px;
+}
+.header {
+	margin-top: -20px;
+	margin-left: -8px;
+	margin-right: -8px;
+	background-color: #403E3F;
+	height: 3em;
+	width: 102%;
+  vertical-align: middle;
+ 
+	}
+#headertext {
+	color: #D9D9D9;
+	font-family: Optima;
+
 }
 
 #title {
 	text-align: center;
 	font-size: 3rem;
+	font-family: Optima;
 }
 
 .tbox{
-	border: 3px solid black;
-	height: 200px;
-	width: 200px;
+	background-color: #EFC94C;
+	border: 0px solid black;
+	height: 130px;
+	width: 130px;
 	display: inline-block;
+	margin: 3px;
+}
+
+.leftside{
+	float: left;
+	margin-left: 114px;
+	width: 33%;
+}
+
+#aroundboard {
+	background-color: #E27A3F;
+	width: 33%;
+	float: right;
+	border: 0px solid;
+	padding: 0px;
+	margin-right: 114px;
+}
+.footer {
+	position:absolute;
+  bottom:0;
+  width:102%;
+  height:3em;
+  margin-top: -20px;
+	margin-left: -8px;
+	margin-right: -8px;
+	background-color: #403E3F;
+  vertical-align: middle;
+
+ 
+}
+
+.htmlcsspic {
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+	  width:66%; 
+    height: auto;
+}
+.jspic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 30%;
+	height: auto;
 }
