@@ -17,11 +17,13 @@ background-image:url('http://wwatsonjr.com/wp/wp-content/uploads/2012/08/gradien
 	height: 3em;
 	width: 102%;
   vertical-align: middle;
+  
  
 	}
 #headertext {
 	color: #9DAABB;
 	font-family: Optima;
+	font-size: 18px;
 }
 
 td {
@@ -39,7 +41,8 @@ td {
 #title {
 	text-align: center;
 	font-size: 3rem;
-	font-family: Optima;
+	font-family: Optima, bold;
+	color: #403E3F;
 }
 
 
